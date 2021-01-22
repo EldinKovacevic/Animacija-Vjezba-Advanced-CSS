@@ -1,0 +1,322 @@
+body {
+     margin-top: 13%;
+     margin-left: 20%;
+     margin-right: 20%;
+     background-color: black;
+     }
+    #box-1 {
+     position: absolute;
+     height: 400px;
+     width: 400px;
+     border-radius: 50%;
+     background: linear-gradient( #fb5dad, #55fb9f, #b97aff);
+     filter: blur(58px);
+     margin-left: -220px;
+     }
+     #box-2 {
+     margin-top: 20px;
+     margin-left: -200px;
+     position: absolute;
+     height: 360px;
+     width: 360px;
+     border-radius: 50%;
+     background: linear-gradient( #fb5dad, #55fb9f, #b97aff);
+     }
+    #box-3 { 
+     height: 300px;
+     width: 300px;
+     position: absolute;
+     border-radius: 50%;
+     background: black;
+     margin-top: 50px;
+     margin-left: -170px;
+     }
+    #box-3::after {
+     content: "";
+     height: 280px;
+     width: 280px;
+     position: absolute;
+     border-radius: 50%;
+     background: black;
+     background-image: url(L.png);
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: 140px;
+     opacity: 0.95;
+     margin-top: 10px;
+     margin-left: 10px;
+     }
+    #box-2 {
+     animation-name: wheel;
+     animation-duration: 1s;
+     animation-iteration-count: infinite;
+     animation-timing-function: linear;
+     }
+    #box-1 {
+     animation-name: wheel;
+     animation-duration: 1s;
+     animation-iteration-count: infinite;
+     animation-timing-function: linear;
+     }
+    #box-3::after {
+     animation-name: pulse;
+     animation-duration: 1s;
+     animation-iteration-count: infinite;
+     animation-timing-function: ease;
+     }
+    @keyframes wheel {
+     from{
+         transform: rotate(0deg);
+     }
+     to{
+         transform: rotate(360deg);
+     }
+     }
+    @keyframes pulse {
+     from{
+         transform: scale(0.1);
+     }
+     to{
+         transform: scale(0.9);
+     }
+     }
+    #box-4 {
+     position: absolute;
+     height: 400px;
+     width: 400px;
+     border-radius: 50%;
+     background: linear-gradient( #fb5dad, #55fb9f, #b97aff);
+     filter: blur(58px);
+     margin-top: 10px;
+     margin-left: 80px;
+     }
+    #box-5 {
+     margin-top: 20px;
+     margin-left: 100px;
+     position: absolute;
+     height: 360px;
+     width: 360px;
+     border-radius: 50%;
+     background: linear-gradient( #fb5dad, #55fb9f, #b97aff);
+     }
+    #box-6 { 
+     height: 300px;
+     width: 300px;
+     position: absolute;
+     border-radius: 50%;
+     background: black;
+     margin-top: 50px;
+     margin-left: 130px;
+     }
+    #box-6::after {
+     content: "";
+     height: 280px;
+     width: 280px;
+     position: absolute;
+     border-radius: 50%;
+     background: black;
+     background-image: url(I.png);
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: 140px;
+     opacity: 0.95;
+     margin-top: 10px;
+     margin-left: 10px;
+     }
+    #box-5 {
+     animation-name: wheel;
+     animation-duration: 1s;
+     animation-iteration-count: infinite;
+     animation-timing-function: linear;
+     }
+    #box-4 {
+     animation-name: wheel;
+     animation-duration: 1s;
+     animation-iteration-count: infinite;
+     animation-timing-function: linear;
+
+     }
+    #box-6::after {
+     animation-name: pulse;
+     animation-duration: 1s;
+     animation-iteration-count: infinite;
+     animation-timing-function: ease; 
+     }
+    @keyframes wheel {
+     from{
+        transform: rotate(0deg);
+     }
+     to{
+        transform: rotate(360deg);
+     }
+     }
+    @keyframes pulse {
+     from{
+        transform: scale(0.1);
+     }
+     to{
+        transform: scale(0.9);
+     } 
+     }
+
+    #box-7 {
+     position: absolute;
+     height: 400px;
+     width: 400px;
+     border-radius: 50%;
+     background: linear-gradient( #fb5dad, #55fb9f, #b97aff);
+     filter: blur(58px);
+     margin-left: 380px;
+     }
+    #box-8 {
+     margin-top: 20px;
+     margin-left: 400px;
+     position: absolute;
+     height: 360px;
+     width: 360px;
+     border-radius: 50%;
+     background: linear-gradient( #fb5dad, #55fb9f, #b97aff);
+     }
+    #box-9 { 
+     height: 300px;
+     width: 300px;
+     position: absolute;
+     border-radius: 50%;
+     background: black;
+     margin-top: 50px;
+     margin-left: 430px;
+     }
+    #box-9::after {
+     content: "";
+     height: 280px;
+     width: 280px;
+     position: absolute;
+     border-radius: 50%;
+     background: black;
+     background-image: url(N.png);
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: 140px;
+     opacity: 0.95;
+     margin-top: 10px;
+     margin-left: 10px;
+     }
+    #box-8 {
+     animation-name: wheel;
+     animation-duration: 1s;
+     animation-iteration-count: infinite;
+     animation-timing-function: linear;
+     }
+    #box-7 {
+     animation-name: wheel;
+     animation-duration: 1s;
+     animation-iteration-count: infinite;
+     animation-timing-function: linear;
+
+    } 
+    #box-9::after {
+     animation-name: pulse;
+     animation-duration: 1s;
+     animation-iteration-count: infinite;
+     animation-timing-function: ease;
+     }
+    @keyframes wheel {
+     from{
+        transform: rotate(0deg);
+     }
+     to{
+        transform: rotate(360deg);
+     }
+     }
+    @keyframes pulse {
+    from{
+        transform: scale(0.1);
+     }
+     to{
+        transform: scale(0.9);
+     }
+     } 
+
+    #box-10 {
+     position: absolute;
+     height: 400px;
+     width: 400px;
+     border-radius: 50%;
+     background: linear-gradient( #fb5dad, #55fb9f, #b97aff);
+     filter: blur(58px);
+     margin-left: 680px;
+    }
+    #box-11 {
+     margin-top: 20px;
+     margin-left: 700px;
+     position: absolute;
+     height: 360px;
+     width: 360px;
+     border-radius: 50%;
+     background: linear-gradient( #fb5dad, #55fb9f, #b97aff);
+    }
+    #box-12 { 
+     height: 300px;
+     width: 300px;
+     position: absolute;
+     border-radius: 50%;
+     background: black;
+     margin-top: 50px;
+     margin-left: 730px;
+    }
+    #box-12::after {
+     content: "";
+     height: 280px;
+     width: 280px;
+     position: absolute;
+     border-radius: 50%;
+     background: black;
+     background-image: url(K.png);
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: 140px;
+     opacity: 0.95;
+     margin-top: 10px;
+     margin-left: 10px;
+    }
+    #box-11 {
+     animation-name: wheel;
+     animation-duration: 1s;
+     animation-iteration-count: infinite;
+     animation-timing-function: linear;
+     }
+    #box-10 {
+     animation-name: wheel;
+     animation-duration: 1s;
+     animation-iteration-count: infinite;
+     animation-timing-function: linear;
+    
+     }
+    #box-12::after {
+     animation-name: pulse;
+     animation-duration: 1s;
+     animation-iteration-count: infinite;
+     animation-timing-function: ease;
+     }
+    @keyframes wheel {
+     from{
+         transform: rotate(0deg);
+     }
+     to{
+         transform: rotate(360deg);
+     }
+     }
+    @keyframes pulse {
+     from{
+         transform: scale(0.1);
+     }
+     to{
+         transform: scale(0.9);
+     }
+
+
+           
+     
+     
+     
+     <!--Eldin.K-->
